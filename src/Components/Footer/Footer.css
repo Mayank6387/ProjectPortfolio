@@ -1,0 +1,29 @@
+.foot{
+    display: flex;
+    align-items: center;
+    margin: -0.5rem -3.5rem;
+    position: relative;
+    height: 15px;
+    margin-top: 8rem;
+}
+.foot span{
+    position:absolute;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   margin-bottom: 25px;
+   color: var(--black);
+   font-weight: medium;
+   font-size: 1rem;
+}
+@media screen and (max-width:480px)  {
+    .foot{
+        margin-top:-3rem;
+    }
+    .foot span{
+        top: -18px;
+    }
+    .foot img{
+        height:17rem;
+    }
+    
+}
