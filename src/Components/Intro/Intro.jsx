@@ -26,22 +26,22 @@ const Intro = () => {
             <Link spy={true} to='Contact' activeClass='active' smooth={true}><button className='button i-button'>Hire Me</button></Link>
             <div className="i-icons">
               <a target="_blank" href="https://github.com/Mayank6387">
-              <img src={Github} alt="No image" />
+              <img src={Github} alt="" />
               </a>
-              <a target="_blank" href="https://www.linkedin.com/in/mayank-gupta-7570a4249/"><img src={LinkedIn} alt="No image" /></a> 
+              <a target="_blank" href="https://www.linkedin.com/in/mayank-gupta-7570a4249/"><img src={LinkedIn} alt="" /></a> 
             </div>
         </div>
 
         <div className="i-right">
-        <img src={Vector1} alt="No Image" />
-        <img src={Vector2} alt="No Image" />
-        <img src={boy} alt="No Image" />
+        <img src={Vector1} alt="" />
+        <img src={Vector2} alt="" />
+        <img src={boy} alt="" />
         <motion.img 
         initial={{left:"-36%"}}
         whileInView={{left:"-24%"}}
         transition={transition}
         
-        src={glassesimoji} alt="No Image" />
+        src={glassesimoji} alt="" />
        
         <motion.div 
         initial={{left:'68%'}}
