@@ -25,10 +25,10 @@ const Intro = () => {
             </div>
             <Link spy={true} to='Contact' activeClass='active' smooth={true}><button className='button i-button'>Hire Me</button></Link>
             <div className="i-icons">
-              <a target="_blank" href="https://github.com/Mayank6387">
+              <a target="_blank" rel="noreferrer" href="https://github.com/Mayank6387">
               <img src={Github} alt="" />
               </a>
-              <a target="_blank" href="https://www.linkedin.com/in/mayank-gupta-7570a4249/"><img src={LinkedIn} alt="" /></a> 
+              <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/mayank-gupta-7570a4249/"><img src={LinkedIn} alt="" /></a> 
             </div>
         </div>
 
